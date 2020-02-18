@@ -1,0 +1,221 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body {
+    height: 100%;
+    background: linear-gradient(rgb(199, 194, 164), rgb(221, 185, 108));
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.header {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    margin-bottom:310px;
+    margin-top: 0px;
+    z-index: 1001;
+    width: 100%;
+    
+}
+.form-control {
+    margin-top : 2px;
+    margin-bottom: 5px;
+}
+
+div, h4{
+    font-family: 'Indie Flower', cursive;
+}
+
+.container {
+    position: relative;
+    width: 90%;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    z-index: 100;
+    
+}
+.content {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    z-index: 101;
+  }
+
+  .btn  {
+    margin-top: 3px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: unset;
+    justify-content: center;
+    width: 100%;
+    padding: 0px;
+    
+  }
+  
+  .mislist {
+    margin-top: 50px;
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 0px;
+  }
+
+  #missionsresult{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+
+  }
+  .firstMC {
+    display: inline-block;
+    opacity: 0;
+    overflow-wrap: break-word;
+    transition: all 1.5s ease-in-out;
+    overflow: auto;
+    width: 275px;
+    height: 350px;
+    background-color: rgb(229, 224, 153);
+    box-shadow: 10px 10px 5px grey;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    animation-name: myanimation;
+    animation-duration: 1.5s;
+    animation-delay: 0.0s;
+    animation-timing-function: ease-in;
+    transition: all 0.3s;
+    z-index: 101;
+    
+}
+.firstMC:hover {
+  transform: scaleX(0.98) scaleY(0.98);
+  opacity: 0.85;
+
+}
+
+@keyframes myanimation {
+  0% {opacity: 0;}
+  5% {opacity: 0.05;}
+  10% {opacity: 0.10;}
+  15% {opacity: 0.15;}
+  20% {opacity: 0.20;}
+  25% {opacity: 0.25;}
+  30% {opacity: 0.30;}
+  35% {opacity: 0.35;}
+  40% {opacity: 0.40;}
+  45% {opacity: 0.45;}
+  50% {opacity: 0.50;}
+  55% {opacity: 0.55;}
+  60% {opacity: 0.60;}
+  65% {opacity: 0.65;}
+  70% {opacity: 0.70;}
+  75% {opacity: 0.75;}
+  80% {opacity: 0.80;}
+  85% {opacity: 0.85;}
+  90% {opacity: 0.90;}
+  95% {opacity: 0.95;}
+  100%{opacity: 1;}
+}
+
+
+  .alert{
+    background-color: rgb(229, 224, 153);
+    border: 4px;
+  }
+  .rname {
+    font-size: 60px;
+    text-align: center;
+    
+   }
+   .rcontent {
+    padding-top: 30px;
+    font-size: 25px;
+    text-align: center;
+   }
+   .rdate {
+    padding-top: 130px;
+    font-size: 15px;
+    text-align: left;
+   }
+   .rtime {
+    font-size: 15px;
+    text-align: left;
+   }
+  
+   .close {
+    opacity: 0;
+    transition: all 0.3s;
+    width: 250px;
+    height: 330px;
+    z-index: 100;
+    position: absolute;
+  
+}
+  .close:hover {
+    opacity: 1;
+    z-index: 100;
+      position: absolute;
+}
+
+  #secondx {
+    margin-bottom: 100%;
+    margin-left: 90%;
+    cursor: pointer;
+    
+  }
+  .end {
+      font-size: 108px;
+      text-align: center;
+      padding-top: 25px;
+      margin-bottom: 80px;
+      
+  }
+ 
+
+    
+
+  
+ 
